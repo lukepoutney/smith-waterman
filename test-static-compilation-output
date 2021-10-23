@@ -1,0 +1,11 @@
+scoring_matrix.c:41:57: warning: The left operand of '+' is a garbage value
+                        upleft = matrix->data[(matrix->width)*(i-1) + (j-1)] + (a[i-1] == b[j-1] ? match_score : -match_score); 
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+scoring_matrix.c:51:2: warning: Potential leak of memory pointed to by 'matrix'
+        return *matrix;
+        ^~~~~~~~~~~~~~
+2 warnings generated.
+traceback.c:17:11: warning: Use of zero-allocated memory
+    a_[i] = a[ (view.height-2) ];
+          ^
+1 warning generated.

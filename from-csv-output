@@ -1,0 +1,4 @@
+print_smith_waterman("GGTTGACTA", "TGTTACGG
+GGTTGACTATGTTACGG
+")
+double free or corruption (out)

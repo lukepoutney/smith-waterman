@@ -1,0 +1,3 @@
+print_smith_waterman("GGTTGACTA", "TGTTACGG")
+A: GTTGAC
+B: GTT-AC

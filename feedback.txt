@@ -1,0 +1,9 @@
+2314348p: 17
+- test program runs without crashing
+- test program produces the correct output
+- program 'from-csv' crashed
+- 1 error(s) detected by AddressSanitizer
+- 4 warning(s) when compiling with static analyser
+- 1 problem(s) detected by static analyser in traceback.c
+- 2 problem(s) detected by static analyser in scoring_matrix.c
+- missing null pointer checks
